@@ -44,7 +44,10 @@ namespace mobilebill
                     TotalBill += item.PulseRate;
                 }
             }
-            Console.WriteLine("Total Bill: ", TotalBill);
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine("Breakdown (Optional to show):");
+            Console.WriteLine("Sample output: " + TotalBill + "taka");
 
             Console.ReadKey();
         }
