@@ -14,7 +14,7 @@ namespace mobilebill
             PickHour.SessionEnd = DateTime.ParseExact("10:59:59 PM", "hh:mm:ss tt", null);
             PickHour.Rate = 0;
             PickHour.PulseRate = 0.3;
-            PickHour.PulseDuration = 20;
+            PickHour.PulseDuration = 30;
             HourlyRate.Add(PickHour);
             MobileBill OffPickHour1 = new MobileBill();
             PickHour.Name = "OffPickHour";
